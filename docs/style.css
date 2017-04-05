@@ -1,0 +1,121 @@
+html {
+	height: 100%;
+	font-size: 100%;
+	box-sizing: border-box;
+	text-size-adjust:100%;
+}
+
+body {
+	height: 100%;
+	color: #444;
+}
+
+.header {
+	color: #fff;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	padding: 80px 25px;
+	text-align: center;
+	background: linear-gradient(to right, rgba(48,63,159,.9) 30%, rgba(61,90,254 ,1) 130%);
+}
+
+.header h1 {
+	color:#fff;
+	font-size: 5rem;
+	font-weight: 700;
+	text-shadow: 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.header h2 {
+	font-size: 1.1rem;
+	text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+	margin-top: -10px;
+}
+
+.section {
+	padding: 25px 0;
+}
+
+.section p {
+	z-index: 9999999999999;
+}
+
+/*.code {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	background: #333;
+	border: 5px solid #fff;
+}
+
+pre,
+code {
+	color: #fff;
+	text-align: left;
+}
+*/
+.mlightbox .item h3 {
+	font-size: 4rem;
+}
+
+pre {
+  border-left-color: rgba(48,63,159,.9);
+}
+
+.footer {
+	margin: 0;
+	padding: 15px 0;
+	background: linear-gradient(to right, rgba(48,63,159,.9) 30%, rgba(61,90,254 ,1) 130%);
+	text-align: center;
+	color: #ffff
+}
+.footer p {
+	margin: 0;
+}
+.footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+/* GITHUB CORNER */
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform:rotate(0)
+    }
+  20%,
+  60% {
+    transform:rotate(-25deg)
+    }
+  40%,
+  80% {
+    transform:rotate(10deg)
+    }
+}
+
+@media (max-width:500px) {
+.github-corner:hover .octo-arm {
+  animation:none;
+}
+.github-corner .octo-arm {
+  animation:octocat-wave 560ms ease-in-out
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "mlightbox-js",
+  "version": "0.1.0",
+  "description": "Micro lightbox gallery with no dependencies",
+  "main": "index.js",
+  "private": true,
+  "files": [
+    "dist/mlightbox.min.css",
+    "dist/mlightbox.min.js",
+    "mlightbox.js",
+    "mlightbox.css"
+  ],
+  "scripts": {
+    "minify-css": "cssnano mlightbox.css > dist/mlightbox.min.css",
+    "minify-js": "babili mlightbox.js -d dist",
+    "dev": "npm run minify-css && npm run minify-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welksonramos/mlightbox.js.git"
+  },
+  "keywords": [
+    "lightbox",
+    "gallery",
+    "javascript"
+  ],
+  "author": "Welkson Ramos <welksonr@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/welksonramos/mlightbox.js/issues"
+  },
+  "homepage": "https://github.com/welksonramos/mlightbox.js#readme",
+  "devDependencies": {
+    "babili": "0.0.12",
+    "cssnano-cli": "^1.0.5"
+  }
+}
