@@ -5,15 +5,12 @@
   "main": "index.js",
   "private": true,
   "files": [
-    "dist/mlightbox.min.css",
-    "dist/mlightbox.min.js",
-    "mlightbox.js",
-    "mlightbox.css"
+    "src/mlightbox.css",
+    "src/mlightbox.js",
+    "mlightbox.min.js",
+    "mlightbox.min.css"
   ],
   "scripts": {
-    "minify-css": "cssnano mlightbox.css > dist/mlightbox.min.css",
-    "minify-js": "babili mlightbox.js -d dist",
-    "dev": "npm run minify-css && npm run minify-js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -32,7 +29,13 @@
   },
   "homepage": "https://github.com/welksonramos/mlightbox.js#readme",
   "devDependencies": {
-    "babili": "0.0.12",
-    "cssnano-cli": "^1.0.5"
+    "gulp": "^3.9.1",
+    "gulp-babili": "0.0.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-release-tasks": "0.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-standard": "^9.0.0",
+    "run-sequence": "^1.2.2"
   }
 }
