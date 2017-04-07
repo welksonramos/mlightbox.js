@@ -14,14 +14,17 @@
       <h2>Tiny lightbox gallery with no dependencies</h2>
     </div>
   </header>
-  <section>
+  <section class="getting-started">
    <div class="container">
      <div class="row">
-      <div class="column">
-        <h2>Demo:</h2>
-        <p>Page in development</p>
-      </div>
       <div class="column column-60">
+        <h3>Installation</h3>
+        <h4>Install with npm</h4>
+        <pre><code>npm install mlightbox-js</code></pre>
+        <h4>Install from Github</h4>
+        <p>Download directly from <a href="https://github.com/welksonramos/mlightbox.js" target="_blank">github</a></p>
+      </div>
+      <div class="column column-40 sidebar">
         <div id="mlightbox">
           <a href="assets/img/cat.jpg" mlightbox></a>
           <a href="assets/img/flowers.jpg" mlightbox></a>
@@ -31,8 +34,29 @@
           <a href="assets/img/food.jpg" mlightbox></a>
           <a href="assets/img/nature.jpg" mlightbox></a>
           <a href="assets/img/animals.jpg" mlightbox></a>
+          <p>Images by: <a href="https://lorempixel.com">LoremPixel</a></p>
         </div>
-        <small>Images by: <a href="https://lorempixel.com">LoremPixel</a></small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column column-60">
+      <h3>Getting Started</h3>
+      <p>Include the CSS at the top of your page in your <code>&lt;head&gt;</code> tag: </p>
+      <pre><code>&lt;link rel="stylesheet" href="path/to/mlightbox.min.css"&gt;
+</code></pre>
+<p>Include the Javascript at the bottom of your page before the closing <code>&lt;/body&gt;</code> tag: </p>
+<pre><code>&lt;script src="path/to/mlightbox.min.js"&gt;&lt;/script&gt;</code></pre>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column column-60">
+        <h3>The markup</h3>
+<p>Add a <code>mlightbox</code> attribute in each image link to enable the gallery. For example:</p>
+<pre><code>&lt;a href="path/to/image-1.jpg mlightbox&gt;&lt;/a&gt;
+&lt;a href="path/to/image-2.jpg mlightbox&gt;&lt;/a&gt;
+&lt;a href="path/to/image-3.jpg mlightbox&gt;&lt;/a&gt;
+&lt;a href="path/to/image-4.jpg mlightbox&gt;&lt;/a&gt;
+</code></pre>
       </div>
     </div>
   </div>
@@ -44,12 +68,13 @@
   <div class="container">
     <div class="row">
       <div class="column">
-        <p>&copy; 2017 - Made by <a href="http://twitter.com/welksonramos" target="_blank">Welkson Ramos</a></p>
+        <p>&copy; 2017 - by <a href="http://twitter.com/welksonramos" target="_blank">@welksonramos</a> </p>
       </div>
     </div>
   </div>
 </footer>
 
 <script src="assets/mlightbox.min.js"></script>
+<script src="assets/main.js"></script>
 </body>
 </html>

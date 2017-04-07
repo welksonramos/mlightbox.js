@@ -41,7 +41,8 @@
 	visibility: visible;
 }
 
-.mlightbox-close {
+.mlightbox-close,
+.mlightbox-close:hover {
 	position: absolute;
 	width: 30px;
 	height: 30px;

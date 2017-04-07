@@ -10,6 +10,10 @@ body {
 	color: #444;
 }
 
+p {
+	font-size: 1rem;
+}
+
 .header {
 	color: #fff;
 	width: 100%;
@@ -34,14 +38,24 @@ body {
 	margin-top: -10px;
 }
 
-.section {
+.getting-started {
 	padding: 25px 0;
 }
 
 .section p {
 	z-index: 9999999999999;
 }
+.sidebar {
+	float: right;
+	position: relative;
+}
 
+.pos-fixed {
+	position: fixed;
+	top: 20px;
+	right: 5px;
+	transition: .3s;
+}
 /*.code {
 	width: 100%;
 	max-width: 600px;
@@ -74,6 +88,7 @@ pre {
 }
 .footer p {
 	margin: 0;
+	font-size: .6em;
 }
 .footer a {
 	color: #fff;

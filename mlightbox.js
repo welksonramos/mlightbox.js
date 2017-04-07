@@ -11,7 +11,6 @@
 		createImages();
 		open();
 		close();
-		console.log(el);
 	}
 
 	function createTemplate() {
