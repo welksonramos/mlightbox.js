@@ -1,14 +1,13 @@
 {
   "name": "mlightbox-js",
   "version": "0.1.0",
-  "description": "Micro lightbox gallery with no dependencies",
-  "main": "index.js",
-  "private": true,
+  "description": "A Micro lightbox gallery without dependencies",
+  "main": "mlightbox.min.js",
   "files": [
-    "src/mlightbox.css",
-    "src/mlightbox.js",
-    "mlightbox.min.js",
-    "mlightbox.min.css"
+    "dist/mlightbox.min.js",
+    "dist/mlightbox.min.css",
+    "mlightbox.css",
+    "mlightbox.js",
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
