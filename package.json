@@ -7,7 +7,7 @@
     "dist/mlightbox.min.js",
     "dist/mlightbox.min.css",
     "mlightbox.css",
-    "mlightbox.js",
+    "mlightbox.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
