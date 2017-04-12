@@ -1,6 +1,8 @@
 # mlightbox.js
 > Micro lightbox gallery without dependencies.
 
+[![Build Status](https://travis-ci.org/welksonramos/mlightbox.js.svg?branch=master)](https://travis-ci.org/welksonramos/mlightbox.js) [![bitHound Code](https://www.bithound.io/github/welksonramos/mlightbox.js/badges/code.svg)](https://www.bithound.io/github/welksonramos/mlightbox.js) [![npm version](https://img.shields.io/npm/v/mlightbox-js.svg)](https://www.npmjs.com/package/mlightbox-js)
+
 View a [Demo](https://welksonramos.github.io/mlightbox.js/)
 
 ## How to use?
