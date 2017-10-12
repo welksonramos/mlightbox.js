@@ -27,7 +27,7 @@
 	function createImages() {
 		el.map(item => {
 			let img = document.createElement('img');
-			img.setAttribute('src', item.getAttribute('href'));
+			img.setAttribute('src', item.getAttribute('src'));
 			item.appendChild(img);
 		});
 	}
@@ -49,6 +49,10 @@
 			if(event.keyCode == 27) {
 				lightboxPreview.classList.remove('mlightbox-open');
 			}
+		});
+
+		window.document.addEventListener('touchend', event => {
+				lightboxPreview.classList.remove('mlightbox-open');
 		});
 	}
 
