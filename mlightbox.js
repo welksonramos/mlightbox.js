@@ -34,7 +34,7 @@
 
 	function isCurrent() {
 		lightboxPreview.classList.add('mlightbox-open');
-		currentImage.setAttribute('src', this.getAttribute('href'));
+		currentImage.setAttribute('src', this.getAttribute('src'));
 		lightboxContent.insertBefore(currentImage, lightboxContent.firstChild);
 	}
 
