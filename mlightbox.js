@@ -27,14 +27,14 @@
 	function createImages() {
 		el.map(item => {
 			let img = document.createElement('img');
-			img.setAttribute('src', item.getAttribute('href'));
+			img.setAttribute('src', item.getAttribute('src'));
 			item.appendChild(img);
 		});
 	}
 
 	function isCurrent() {
 		lightboxPreview.classList.add('mlightbox-open');
-		currentImage.setAttribute('src', this.getAttribute('href'));
+		currentImage.setAttribute('src', this.getAttribute('src'));
 		lightboxContent.insertBefore(currentImage, lightboxContent.firstChild);
 	}
 
@@ -49,6 +49,10 @@
 			if(event.keyCode == 27) {
 				lightboxPreview.classList.remove('mlightbox-open');
 			}
+		});
+
+		window.document.addEventListener('touchend', event => {
+				lightboxPreview.classList.remove('mlightbox-open');
 		});
 	}
 
