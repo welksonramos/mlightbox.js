@@ -1,7 +1,7 @@
 # mlightbox.js
 > Micro lightbox gallery without dependencies.
 
-[![Build Status](https://travis-ci.org/welksonramos/mlightbox.js.svg?branch=master)](https://travis-ci.org/welksonramos/mlightbox.js) [![bitHound Code](https://www.bithound.io/github/welksonramos/mlightbox.js/badges/code.svg)](https://www.bithound.io/github/welksonramos/mlightbox.js) [![npm version](https://img.shields.io/npm/v/mlightbox-js.svg)](https://www.npmjs.com/package/mlightbox-js)
+[![Build Status](https://travis-ci.org/welksonramos/mlightbox.js.svg?branch=master)](https://travis-ci.org/welksonramos/mlightbox.js) [![npm version](https://img.shields.io/npm/v/mlightbox-js.svg)](https://www.npmjs.com/package/mlightbox-js) [![install size](https://packagephobia.now.sh/badge?p=mlightbox-js@0.1.0)](https://packagephobia.now.sh/result?p=mlightbox-js@0.1.0) [![GitHub license](https://img.shields.io/github/license/welksonramos/mlightbox.js.svg)](https://github.com/welksonramos/mlightbox.js/blob/master/LICENSE)
 
 View a [Demo](https://welksonramos.github.io/mlightbox.js/)
 
